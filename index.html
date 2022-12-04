@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+
+<body>
+    <!-- <form>  
+        <input type="text" id="number" name="number"/><br/>  
+        <input type="button" value="cube" onclick="getcube()"/>  
+        </form>   -->
+        <!-- <button class="btn btn-succes" onclick="Sumbit()"> Go</button> -->
+      
+</body>
+
+
+<script>
+
+
+
+// 2. Write a method that generates a random number between two numbers
+
+// function getRandomInt() {
+//   return Math.floor(Math.random()*(5 , 10) );
+// }
+
+//  console.log(getRandomInt());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 3. You have an object array named users. Each element will have id, name, surname and age properties.
+
+// let dev=[{
+//    id: 1,
+//    name: "Leanne Graham",
+//     username: "Bret",
+//     yaş: "15",
+// } , 
+
+// {
+//     id: 2,
+//     name: "Ervin Howell",
+//     username: "Antonette",
+//     yaş: "25"
+// }
+
+// ,
+
+// {   id: 3,
+//     name: "Clementine Bauch",
+//     username: "Samantha",
+//     email: "Nathan@yesenia.net",
+//     yaş: "5"},
+
+
+// {id: 4,
+//     name: "Patricia Lebsack",
+//     username: "Karianne",
+//     email: "Julianne.OConner@kory.org",
+//     yaş: "17"
+// },
+
+//     { id: 5,
+//     name: "Chelsey Dietrich",
+//     username: "Kamren",
+//     email: "Lucio_Hettinger@annie.ca",
+//     yaş: "35"
+// },]
+
+// console.log(dev);
+    
+
+
+// 3.1. You must have a function that adds an element to this array. When adding an element, ids must be a random number between 100 and 1000. It should return the element it added return.
+
+
+// let obj ={
+//     id: Math.floor(Math.random()*(100 , 1000) ),
+//     name: "Chelsey Dietrich",
+//     username: "Kamren",
+//     email: "Lucio_Hettinger@annie.ca",
+//     yaş: "45"
+// }
+// let obj1 ={
+//     id: Math.floor(Math.random()*(100, 1000) ),
+//     name: "Chelsey Dietrich",
+//     username: "Kamren",
+//     email: "Lucio_Hettinger@annie.ca",
+//     yaş: "45"
+// }
+// dev.push(obj,obj1)
+
+
+
+
+
+
+
+// 3.2. In this array, you should have a function that finds the element by id and returns the first and last name.
+
+// let dev={
+//    id: 1,
+//    name: "Leanne Graham",
+//     username: "Bret",
+//     yaş: "15",
+// }
+
+// if(dev.id== 1){
+//     console.log(dev.name);
+// }else{
+//     console.log('error');
+// }
+
+
+
+// 3.3. You must have a function that returns the ids of the elements in this array whose name is null.
+// let dev=[{
+//    id: 1 ,
+//    name: "",
+//     username: "Bret",
+//     yaş: "15",
+// },
+// {
+//    id: 2 ,
+//    name: "Leanne Graham",
+//     username: "Bret",
+//     yaş: "25",
+// }]
+
+
+
+
+// function isPrime() {
+ 
+// return dev.filter(element => element.name == "" ? element.id : false)
+
+// }
+
+// console.log(isPrime())
+
+
+
+
+
+
+
+
+
+
+// 3.4. In this array, you must have a function that returns the first and last names of the elements whose age is under 18.
+// 3.7. You must have a function that checks if this array contains an element whose age is less than 18.
+// 3.8. You must have a function in this array that checks if the age of each element is less than 18.
+// üçu birində amma tam tutmadım deyə belə yazdım müəllim
+
+
+
+
+
+// let dev=[{
+//    id: 1,
+//    name: "Leanne Graham",
+//     username: "Bret",
+//     yaş: 15,
+// } , 
+
+// {
+//     id: 2,
+//     name: "Ervin Howell",
+//     username: "Antonette",
+//     yaş: 25
+// }
+
+// ,
+
+// {   id: 3,
+//     name: "Clementine Bauch",
+//     username: "Samantha",
+//     email: "Nathan@yesenia.net",
+//     yaş: 5 },
+
+
+// {id: 4,
+//     name: "Patricia Lebsack",
+//     username: "Karianne",
+//     email: "Julianne.OConner@kory.org",
+//     yaş: 17
+// },
+
+//     { id: 5,
+//     name: "Chelsey Dietrich",
+//     username: "Kamren",
+//     email: "Lucio_Hettinger@annie.ca",
+//     yaş: 35
+// },]
+
+
+
+
+
+// function isPrime() {
+ 
+// return dev.filter(item => (item.yaş < 18)  ? item.name && item.username : false)
+
+// }
+
+// console.log(isPrime( ))
+
+
+
+
+
+
+
+
+// 3.5.You must have a function that capitalizes the first letter of the first and last names of the elements in this array.
+
+
+// let dev=[{
+//    id: 1,
+//    name: "leanne ",
+//     username: "bret",
+//     yaş: 15,
+// } , 
+
+// {
+//     id: 2,
+//     name: "ervin ",
+//     username: "antonette",
+//     yaş: 25
+// }
+
+// ,
+
+// {   id: 3,
+//     name: "clementine ",
+//     username: "samantha",
+//     yaş: 5 },
+
+
+// {id: 4,
+//     name: "patricia ",
+//     username: "karianne",
+//     yaş: 17
+// },
+
+//     { id: 5,
+//     name: "chelsey ",
+//     username: "kamren",
+//     yaş: 35
+// },]
+
+
+
+// function capitalizeWords(dev) {
+//   return dev.map(element => {
+//     return element.name.charAt(0).toUpperCase() + element.name.slice(1).toLowerCase() , element.username.charAt(0).toUpperCase() + element.username.slice(1).toLowerCase()  ;
+//   });
+// }
+
+
+
+// console.log(capitalizeWords(dev));
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 3.6. According to the ids in this array you must have a function that writes in ascending order.
+
+// let dev=[{
+//    id: 100,
+//    name: "leanne ",
+//     username: "bret",
+//     yaş: 15,
+// } , 
+
+// {
+//     id: 200,
+//     name: "ervin ",
+//     username: "antonette",
+//     yaş: 25
+// }
+
+// ,
+
+// {   id: 350,
+//     name: "clementine ",
+//     username: "samantha",
+//     yaş: 55 },
+
+
+// {id: 49,
+//     name: "patricia ",
+//     username: "karianne",
+//     yaş: 17
+// },
+
+//     { id: 50,
+//     name: "chelsey ",
+//     username: "kamren",
+//     yaş: 35
+// },]
+
+// var firstRun = dev.sort(function(a, b) {
+//     return (a.id - b.id);
+// });
+
+// console.log(firstRun);
+
+</script>
+</html>
